@@ -1,0 +1,35 @@
+@media screen and (max-width: 1439px) {
+    header {
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+    main {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .intro {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .intro > div:nth-child(1) {
+        width: 100%;
+        padding-top: 120px;
+        margin: 0;
+    }
+
+    .intro > div:nth-child(2) {
+        width: 100%;
+        padding-top: 75px;
+        overflow: visible;
+    }
+
+    .intro > div:nth-child(2) img {
+        width: 100%;
+    }
+}
