@@ -1,0 +1,54 @@
+@media screen and (max-width: 974px) {
+    .pricing > div {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .pricing div div:nth-child(1) button {
+        padding: 10px 60px;
+    }
+
+    .pricing div div:nth-child(2) button {
+        padding: 10px 45px;
+    }
+
+    .pricing div div:nth-child(3) button {
+        padding: 10px 49px;
+    }
+
+    .pricing div div {
+        margin: 5% 0;
+    }
+
+    .pricing > div p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .pricing > div h3 {
+        margin: 16px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro > div > div:nth-child(5) > div {
+        width: 40%;
+    }
+
+    .intro > div:nth-child(2) {
+        width: 100%;
+    }
+
+    .about > div:nth-child(2) {
+        width: 70%;
+    }
+
+    .about > div > div:nth-child(5) div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+}

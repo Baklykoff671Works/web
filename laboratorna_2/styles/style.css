@@ -9,9 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    /* width: 1440px;
+    /* width: 100%; */
     margin: auto;
-    height: auto; */
+    height: auto;
 }
 
 main {
@@ -300,6 +300,7 @@ header div:nth-child(2) ul li:nth-child(5) a {
 
 footer {
     background-color: #E7ECFF;
+    min-width: 1440px;
 }
 
 footer > div:nth-child(1) {
@@ -348,6 +349,7 @@ footer div:nth-child(2) div button {
     text-align: center;
     color: #FFFFFF;
     padding: 4px 25px;
+    width: 100%;
 }
 
 footer div:nth-child(2) div:nth-child(1) {
